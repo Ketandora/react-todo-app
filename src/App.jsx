@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <Header title="Todo App" />
 
       <div className="container my-3">
@@ -53,17 +53,12 @@ function App() {
             Add
           </button>
         </div>
-
-    
         {loading && <p className="text-primary mt-2">Adding todo...</p>}
 
         <Todos todos={todos} onDelete={onDelete} />
 
       </div>
-
-      <Footer />
-    </>
+    </div>
   );
 }
-
 export default App;
