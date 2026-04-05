@@ -35,4 +35,5 @@ It is a simple and responsive Todo application built using React. This project s
 
 ```bash
 npm install
+go to the folder it is saved, then
 npm start
